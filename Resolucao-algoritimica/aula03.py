@@ -44,3 +44,15 @@ while len(word) < 3 or len(word) > 10:
     word = input("Digite uma palavra de 3 a 10 letras: ")
 
 print("A palavra", word, "tem", len(word), "letras.")
+
+# while True and While with flag
+
+acesso = False # acesso é minha flag
+answer = 0
+
+while not acesso:
+    if answer == 1:
+        acesso = True
+        print("acesso permitido")
+    else:
+        answer = int(input("Digite 1 para true e 0 para falso: "))
