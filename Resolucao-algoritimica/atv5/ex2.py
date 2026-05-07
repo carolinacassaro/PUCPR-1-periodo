@@ -10,3 +10,4 @@ for i in range(6):
 
 print(nums)
 
+# ps.: acho que esse leia é pra eu inventar um, mas deixei pro usuario inserir
